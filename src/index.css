@@ -5,6 +5,10 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
   height: 100%;
+}
+
+@font-face{
+  font-family: 'Comfortaa';
+  src: local('Comfortaa'), url(./fonts/Comfortaa/static/Comfortaa-Regular.ttf) format('truetype');
 }

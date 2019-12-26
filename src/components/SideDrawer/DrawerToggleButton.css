@@ -18,6 +18,6 @@
 
 .toggle-button_line {
     width: 30px;
-    height: 1px;
-    background: white;
+    height: 2px;
+    background: black;
 }
