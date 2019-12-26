@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sarahcodes/static/css/main.d1b05096.chunk.css",
+    "main.js": "/sarahcodes/static/js/main.a74f3f19.chunk.js",
+    "main.js.map": "/sarahcodes/static/js/main.a74f3f19.chunk.js.map",
+    "runtime-main.js": "/sarahcodes/static/js/runtime-main.962a78cb.js",
+    "runtime-main.js.map": "/sarahcodes/static/js/runtime-main.962a78cb.js.map",
+    "static/js/2.b8ed6a7d.chunk.js": "/sarahcodes/static/js/2.b8ed6a7d.chunk.js",
+    "static/js/2.b8ed6a7d.chunk.js.map": "/sarahcodes/static/js/2.b8ed6a7d.chunk.js.map",
+    "index.html": "/sarahcodes/index.html",
+    "precache-manifest.d7999db8882733f506f6b74a92e8ed86.js": "/sarahcodes/precache-manifest.d7999db8882733f506f6b74a92e8ed86.js",
+    "service-worker.js": "/sarahcodes/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/sarahcodes/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.b8ed6a7d.chunk.js.LICENSE": "/sarahcodes/static/js/2.b8ed6a7d.chunk.js.LICENSE",
+    "static/media/logo.svg": "/sarahcodes/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.962a78cb.js",
+    "static/js/2.b8ed6a7d.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.a74f3f19.chunk.js"
+  ]
+}
