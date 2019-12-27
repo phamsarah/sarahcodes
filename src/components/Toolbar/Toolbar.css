@@ -3,15 +3,16 @@
     top: 0;
     left: 0;
     width:100%;
-    background: black(158, 146, 146);
-    height: 60px;
+    background: rgba(255, 255, 255, 0.63);
+    height: 15%;
 }
 
 .toolbar_navigation {
     display: flex;
     height: 100%;
     align-items: center;
-    padding: 5rem;
+    padding: 1rem;
+    padding-left: 4rem;
 }
 
 .toolbar_logo {
@@ -53,13 +54,13 @@
 }
 
 .App-logo {
-    height:30px;
+    height:35px;
     pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference){
     .App-logo{
-        animation: App-logo-spin infinite 20s linear;
+        animation: App-logo-spin infinite 5s linear;
     }
 }
 

@@ -4,6 +4,7 @@ import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 import Selfie from './pictures/favorite.jpg';
 import './App.css';
+import {Rectangle} from 'draw-shape-reactjs';
 
 // This is the Homepage!
 
@@ -40,6 +41,9 @@ class App extends Component{
           <main style={{marginLeft: '100px'}}> 
           <p>
             <div className="page_content">
+
+            
+
             <ul>
               <li> <img src={Selfie} alt="selfie" width="800px"/> </li>
                 <div className="words">
