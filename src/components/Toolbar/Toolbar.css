@@ -39,7 +39,7 @@
 }
 
 .toolbar_navigation-items li{
-    padding: 5rem;
+    padding: 1rem;
 }
 
 .toolbar_navigation-items a{
@@ -50,4 +50,25 @@
 .toolbar_navigation-items a:hover,
 .toolbar_navigation-items a:active{
     color: orange;
+}
+
+.App-logo {
+    height:30px;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference){
+    .App-logo{
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+
 }

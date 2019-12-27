@@ -1,4 +1,25 @@
-.selfie_picture {
-    max-width: 10%;
-    height: 20px;
+.page_content ul{
+    flex-direction: row;
+    text-align: center;
+    font-family:'Comfortaa';
+    font-size: 25px;
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    padding: 10rem;
+    max-width: 70%;
+    min-height: 100vh;
+}
+
+.page_content li {
+    padding: 1rem;
+}
+
+.words {
+    margin-top: 5rem;
+    line-height: 3rem;
+}
+
+body {
+    background-image: url("./pictures/background.jpg");
 }

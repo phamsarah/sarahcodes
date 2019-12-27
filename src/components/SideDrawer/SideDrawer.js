@@ -11,11 +11,11 @@ return(
    <nav className={drawerClasses}>
         <ul>
             <li><a href=" /">Home Page</a></li>
-            <br/>
+            <br/><br/>
             <li><a href=" /">About Me!</a></li>
-            <br/>
+            <br/><br/>
             <li><a href=" /">Random Photos</a></li>
-            <br/>
+            <br/><br/>
             <li><a href=" /">Contact</a></li>
         </ul>
     </nav>
