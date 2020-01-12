@@ -4,7 +4,7 @@ import SideDrawer from './components/SideDrawer/SideDrawer';
 import Backdrop from './components/Backdrop/Backdrop';
 import Selfie from './pictures/favorite.jpg';
 import './App.css';
-import {Card, CardMedia, CardContent, Typography} from '@material-ui/core';
+import background from './pictures/background.jpg';
 
 // This is the Homepage!
 
@@ -28,35 +28,36 @@ class App extends Component{
   };
 
   render(){
+    const background
+
     let backdrop;
 
     if(this.state.sideDrawerOpen){
       backdrop = <Backdrop click={this.backdropClickHandler}/>
     }
     return(
-      <div>
+      <div styles={{ backgroundImage: 'url(${background})'}}>
           <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
           <SideDrawer show={this.state.sideDrawerOpen}/>
           {backdrop}
           <main style={{marginLeft: '100px'}}> 
 
 
-          <Card>
-            <CardMedia>
+          <article className="card card--wide">
+            <div class="card_media">
               <img src={Selfie} alt="selfie" width="800px"/>
-            </CardMedia>
-            <CardContent>
-              <Typography>
-                <div className="page_content">
-                  Hi, I'm Sarah and welcome to my page! This website was made 
+            </div>
+            <div class="card_content">
+
+                <p className="card_excerpt">
+                  Hi, I'm Sarah and NOT welcome to my page! This website was made 
                   by me using ReactJS on VSCode. Feel free to browse the navigation bar.
-                </div>
-                  
-              </Typography>
-            </CardContent>
-          </Card>
+               </p>
+
+            </div>
+          </article>
           
-          </main>
+          </ main>
       </div>
     );
   }
