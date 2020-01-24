@@ -8,6 +8,8 @@ import background from './pictures/background.jpg';
 
 // This is the Homepage!
 
+let backdrop;
+
 class App extends Component{
 
   // Beginning of navbar ************
@@ -28,15 +30,12 @@ class App extends Component{
   };
 
   render(){
-    const background
-
-    let backdrop;
-
     if(this.state.sideDrawerOpen){
       backdrop = <Backdrop click={this.backdropClickHandler}/>
     }
     return(
-      <div styles={{ backgroundImage: 'url(${background})'}}>
+      <div>
+          <img src={background} className='background' />
           <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
           <SideDrawer show={this.state.sideDrawerOpen}/>
           {backdrop}

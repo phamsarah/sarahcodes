@@ -26,6 +26,13 @@
     position: relative;
     width: 300px;
 }
+.background {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
 
 .card_media::before{
     content:'';
@@ -49,6 +56,10 @@
     justify-content: center;
     align-items: center;
     width: 768px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .card--wide .card_content{
